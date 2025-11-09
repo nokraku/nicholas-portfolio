@@ -62,14 +62,14 @@ export default function Home() {
 </ScrollReveal>
 
 <ScrollReveal delay={0.2}>
-  <section className="py-16 md:py-24 px-4 md:px-8 overflow-hidden">
+  <section className="py-8 md:py-12 px-4 md:px-8 overflow-hidden">
       {/* Logo Section - Sliding Carousel */}
       <section className="py-4 md:py-6 px-4 md:px-8 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative">
-          <div className="flex animate-scroll gap-24 md:gap-32">
+          <div className="flex animate-scroll gap-40 md:gap-32">
               {/* First set of logos */}
-              <div className="flex gap-24 md:gap-32 items-center justify-center min-w-full opacity-40">
+              <div className="flex gap-40 md:gap-32 items-center justify-center min-w-full opacity-40">
                 <div className="relative w-20 h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
               
               {/* Duplicate set for seamless loop */}
-              <div className="flex gap-24 md:gap-32 items-center justify-center min-w-full opacity-40">
+              <div className="flex gap-40 md:gap-32 items-center justify-center min-w-full opacity-40">
                 <div className="relative w-20 h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
