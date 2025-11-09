@@ -70,7 +70,7 @@ export default function Home() {
           <div className="flex animate-scroll gap-48 md:gap-32">
               {/* First set of logos */}
               <div className="flex gap-48 md:gap-32 items-center justify-center min-w-full opacity-40">
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
                     alt="PlayStation"
@@ -78,7 +78,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-paramount.png" 
                     alt="Paramount"
@@ -86,7 +86,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-chanel.png" 
                     alt="Chanel"
@@ -94,7 +94,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-sainsburys.png" 
                     alt="Sainsbury's"
@@ -102,7 +102,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-deloitte.png" 
                     alt="Deloitte"
@@ -110,7 +110,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-easyjet.png" 
                     alt="easyJet"
@@ -122,7 +122,7 @@ export default function Home() {
               
               {/* Duplicate set for seamless loop */}
               <div className="flex gap-48 md:gap-32 items-center justify-center min-w-full opacity-40">
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
                     alt="PlayStation"
@@ -130,7 +130,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-paramount.png" 
                     alt="Paramount"
@@ -138,7 +138,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-chanel.png" 
                     alt="Chanel"
@@ -146,7 +146,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-sainsburys.png" 
                     alt="Sainsbury's"
@@ -154,7 +154,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-deloitte.png" 
                     alt="Deloitte"
@@ -162,7 +162,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-20 h-12 flex-shrink-0">
+                <div className="relative w-16 h-10 md:w-20 md:h-12 flex-shrink-0">
                   <Image 
                     src="/logo-easyjet.png" 
                     alt="easyJet"
