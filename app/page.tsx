@@ -376,8 +376,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="space-y-2">
             <p className="text-[24px] text-black">London</p>
-            <a href="mailto:n.okraku@gmail.com" className="text-[24px] text-black hover:underline block">
-              n.okraku@gmail.com
+            <a href="mailto:hello@nicholasosorio.com" className="text-[24px] text-black hover:underline block">
+              hello@nicholasosorio.com
             </a>
             <a href="#" className="text-[24px] text-black hover:underline block">
               Find me on LinkedIn
