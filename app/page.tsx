@@ -69,7 +69,7 @@ export default function Home() {
           <div className="relative">
             <div className="flex animate-scroll">
               {/* First set of logos */}
-              <div className="flex gap-20 md:gap-32 items-center justify-center min-w-full opacity-40">
+              <div className="flex gap-32 md:gap-40 items-center justify-center min-w-full opacity-40">
                 <div className="relative w-20 h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
               
               {/* Duplicate set for seamless loop */}
-              <div className="flex gap-20 md:gap-32 items-center justify-center min-w-full opacity-40">
+              <div className="flex gap-32 md:gap-40 items-center justify-center min-w-full opacity-40">
                 <div className="relative w-20 h-12 flex-shrink-0">
                   <Image 
                     src="/logo-playstation.png" 
