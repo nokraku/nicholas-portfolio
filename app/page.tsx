@@ -47,8 +47,8 @@ export default function Home() {
               
               <div className="space-y-1 mt-8">
                 <p className="text-[24px] text-black">London</p>
-                <a href="mailto:n.okraku@gmail.com" className="text-[24px] text-black hover:underline block">
-                  n.okraku@gmail.com
+                <a href="mailto:hello@nicholasosorio.com" className="text-[24px] text-black hover:underline block">
+                  hello@nicholasosorio.com
                 </a>
                 <a href="https://www.linkedin.com/in/nicholas-osorio-okraku-5a184277/" className="text-[24px] text-black hover:underline block">
                   Find me on LinkedIn
@@ -379,7 +379,7 @@ export default function Home() {
             <a href="mailto:hello@nicholasosorio.com" className="text-[24px] text-black hover:underline block">
               hello@nicholasosorio.com
             </a>
-            <a href="#" className="text-[24px] text-black hover:underline block">
+            <a href="https://www.linkedin.com/in/nicholas-osorio-okraku-5a184277/" className="text-[24px] text-black hover:underline block">
               Find me on LinkedIn
             </a>
           </div>
