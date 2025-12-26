@@ -10,13 +10,6 @@ export default function Home() {
         <h1 className="text-[40px] md:text-[52px] font-bold text-black leading-tight uppercase" style={{ fontFamily: 'var(--font-candal)' }}>
   Nicholas<br />Osorio-Okraku
 </h1>
-          <button className="p-2 mt-2">
-            <div className="space-y-1.5">
-              <div className="w-6 h-0.5 bg-black"></div>
-              <div className="w-6 h-0.5 bg-black"></div>
-              <div className="w-6 h-0.5 bg-black"></div>
-            </div>
-          </button>
         </div>
       </nav>
 
@@ -382,6 +375,9 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/nicholas-osorio-okraku-5a184277/" className="text-[24px] text-black hover:underline block">
               Find me on LinkedIn
             </a>
+            <a href="/Nicholas-Osorio-CV.pdf" target="_blank" rel="noopener noreferrer" className="text-[24px] text-black hover:underline block">
+    Professional CV
+  </a>
           </div>
         </div>
       </footer>

@@ -13,6 +13,21 @@
   --font-sans: 'Manrope', sans-serif;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/grid-pattern.jpg');
+  background-repeat: repeat;
+  background-size: 400px 400px; /* Adjust this to control grid size */
+  opacity: 0.3; /* 30% opacity - adjust between 0.2-0.5 for your preference */
+  z-index: -1;
+  pointer-events: none; /* Ensures it doesn't interfere with clicks */
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
