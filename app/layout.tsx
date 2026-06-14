@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope, Candal } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 
@@ -7,12 +7,6 @@ const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   variable: "--font-manrope",
-});
-
-const candal = Candal({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-candal",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable} ${candal.variable} antialiased`}>
+      <body className={`${manrope.variable} antialiased`}>
         {children}
         <Analytics />
       </body>
