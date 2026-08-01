@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import Header from "@/components/Header";
 
 function IntroText() {
   return (
@@ -18,19 +20,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
 
-      {/* Navigation */}
-      <nav className="px-6 md:px-10 pt-6 pb-4 flex justify-between items-start">
-        <h1 className="text-[36px] md:text-[48px] font-normal text-[#B3050A] leading-none tracking-tight">
-          Nicholas<br />Osorio-Okraku
-        </h1>
-        <button className="mt-2 p-1" aria-label="Open menu">
-          <svg width="28" height="18" viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="0" width="28" height="2" fill="black" />
-            <rect y="8" width="28" height="2" fill="black" />
-            <rect y="16" width="28" height="2" fill="black" />
-          </svg>
-        </button>
-      </nav>
+      <Header />
 
       {/* Hero — image left + text right on desktop; image only on mobile.
           Current mission banner spans full width at the bottom of this section. */}
@@ -132,14 +122,14 @@ export default function Home() {
         </div>
 
         {/* Ideas CTA — above links on mobile, right col on desktop */}
-        <a
-          href="#"
+        <Link
+          href="/blog"
           className="order-1 md:order-2 md:flex-1 bg-[#B3050A] flex items-center justify-center min-h-[80px] md:min-h-[120px]"
         >
           <span className="text-white font-bold text-base md:text-lg tracking-wide">
             → Ideas
           </span>
-        </a>
+        </Link>
 
       </div>
 
