@@ -63,10 +63,8 @@ That's right! One for 'Value' the other for 'Effort'.
 
 Notice the combination and let that guide your decision.
 
-The advice stops there, no more instructions, no more overcomplication.
+The advice stops there, no more instructions, no more overcomplication. Something wrong with most advice on the web nowadays.
 
-Something I think is really wrong with most advice on the web nowadays.
-
-At the end, keeping it simple consumes less energy so can consistently do it.
+At the end, keeping it simple consumes less energy so that you can consistently do it.
 
 Good luck :)
