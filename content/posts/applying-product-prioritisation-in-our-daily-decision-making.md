@@ -3,7 +3,7 @@ title: "Applying Product Prioritisation in Our Daily Decision-Making"
 date: "2026-08-01"
 excerpt: "A PM's simple Value vs Effort framework, applied to everyday to-do lists — no RICE scores, no overcomplication."
 tags: ["product-management", "prioritisation", "productivity"]
-category: "Ideas"
+category: "Idea"
 ---
 
 Product management (PM) isn't rocket science.

@@ -1,6 +1,9 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { remark } from "remark";
+import remarkGfm from "remark-gfm";
+import remarkHtml from "remark-html";
 
 const POSTS_DIR = path.join(process.cwd(), "content/posts");
 
@@ -43,4 +46,12 @@ export function getPostsByCategory(category: PostCategory): Post[] {
 
 export function getPostBySlug(slug: string): Post | undefined {
   return getAllPosts().find((post) => post.slug === slug);
+}
+
+export async function markdownToHtml(markdown: string): Promise<string> {
+  const result = await remark()
+    .use(remarkGfm)
+    .use(remarkHtml, { sanitize: false })
+    .process(markdown);
+  return result.toString();
 }
