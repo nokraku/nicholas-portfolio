@@ -6,8 +6,6 @@ tags: ["product-management", "Tech", "AI"]
 category: "Experience"
 ---
 
-# What it takes to land a tech job in Summer 2026
-
 Firstly let me caveat all I'm about to say that the following is a personal opinion. 
 
 But, as I write this I am currently the Head of Product for an AI-first organisation and plugged into tech industry forums - so hope some of what I say has some substance!
