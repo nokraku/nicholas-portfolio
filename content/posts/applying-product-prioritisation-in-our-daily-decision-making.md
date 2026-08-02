@@ -1,5 +1,5 @@
 ---
-title: "Applying Product Prioritisation in Our Daily Decision-Making"
+title: "Applying product prioritisation in our daily decision-making"
 date: "2026-08-01"
 excerpt: "A PM's simple Value vs Effort framework, applied to everyday to-do lists — no RICE scores, no overcomplication."
 tags: ["product-management", "prioritisation", "productivity"]
